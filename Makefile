@@ -1,11 +1,20 @@
+deploy-debian-ppc64:
+	bash scripts/deploy-debian-ppc64.sh
+
 deploy-debian-jessie:
-	bash scripts/deploy-jessie.sh
+	bash scripts/deploy-debian-jessie.sh
+
+deploy-debian-bento-stretch:
+	bash scripts/deploy-debian-bento-stretch.sh
 
 deploy-debian-stretch:
-	bash scripts/deploy-stretch.sh
+	bash scripts/deploy-debian-stretch.sh
+
+deploy-debian-bento-buster:
+	bash scripts/deploy-debian-bento-buster.sh
 
 deploy-debian-buster:
-	bash scripts/deploy-buster.sh
+	bash scripts/deploy-debian-buster.sh
 
 deploy-libvirt:
 	bash scripts/deploy-libvirt.sh
