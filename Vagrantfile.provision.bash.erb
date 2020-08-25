@@ -14,8 +14,9 @@ Vagrant.configure(2) do |config|
                 k8scluster.vm.box = "debian/buster64"
                 <%# k8scluster.vm.box_version = "3.0.28" %>
                 k8scluster.vm.hostname = "vg-debian-01"
-                k8scluster.vm.network "private_network", ip: "192.168.50.14"                
-                <%# k8scluster.vm.synced_folder ".", "/vagrant", disabled: true %>
+                k8scluster.vm.network "private_network", ip: "192.168.50.14"  
+                <%# It appears your machine doesn't support NFS               %>
+                k8scluster.vm.synced_folder ".", "/vagrant", disabled: true
                 k8scluster.vm.provider "virtualbox" do |vb|
                     vb.name = "vbox-debian-01"
                     vb.memory = "4096"
