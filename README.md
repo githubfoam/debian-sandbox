@@ -1,7 +1,7 @@
 # debian-sandbox
 
 Travis (.com) branch:
-[![Build Status](https://travis-ci.com/githubfoam/debian-sandbox.svg?branch=test)](https://travis-ci.com/githubfoam/debian-sandbox)  
+[![Build Status](https://travis-ci.com/githubfoam/debian-sandbox.svg?branch=master)](https://travis-ci.com/githubfoam/debian-sandbox)  
 
 ~~~~
 >vagrant init --template Vagrantfile.provision.bash.erb
