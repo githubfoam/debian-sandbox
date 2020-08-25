@@ -21,7 +21,7 @@ matrix:
       script:
         - sudo make deploy-vagrant
         - sudo make deploy-libvirt
-        - sudo make deploy-debian-ppc64
+        - sudo make deploy-debian-bento-ppc64
       after_success:
         - deactivate
         - sudo vagrant destroy -f # required to run Vagrantfile template        
