@@ -1,5 +1,5 @@
-deploy-debian-ppc64:
-	bash scripts/deploy-debian-ppc64.sh
+deploy-debian-bento-ppc64:
+	bash scripts/deploy-debian-bento-ppc64.sh
 
 deploy-debian-jessie:
 	bash scripts/deploy-debian-jessie.sh
