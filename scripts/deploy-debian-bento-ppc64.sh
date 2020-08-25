@@ -11,11 +11,12 @@ vagrant plugin install vagrant-mutate #Convert vagrant boxes to work with differ
 
 #https://github.com/chef/bento/tree/master/packer_templates/debian
 # https://github.com/chef/bento/blob/master/packer_templates/debian/debian-9.13-ppc64el.json
-vagrant box add "bento/debian-9.13-ppc64el" --provider=virtualbox
-vagrant mutate "bento/debian-9.13-ppc64el" libvirt
-vagrant init --template Vagrantfile.provision.bash.erb
-# must be created in project root directory with Vagrantfile template file
-vagrant up --provider=libvirt "vg-debian-06"
+# The box 'bento/debian-9.13-ppc64el' could not be found or
+# vagrant box add "bento/debian-9.13-ppc64el" --provider=virtualbox
+# vagrant mutate "bento/debian-9.13-ppc64el" libvirt
+# vagrant init --template Vagrantfile.provision.bash.erb
+# # must be created in project root directory with Vagrantfile template file
+# vagrant up --provider=libvirt "vg-debian-06"
 
 
 # TESTED OK
