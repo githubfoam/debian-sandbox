@@ -1,3 +1,6 @@
+deploy-gitlabrunner:
+	bash scripts/deploy-gitlabrunner.sh
+
 deploy-debian-bento-ppc64:
 	bash scripts/deploy-debian-bento-ppc64.sh
 
