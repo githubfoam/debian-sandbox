@@ -4,6 +4,7 @@ Travis (.com) branch:
 [![Build Status](https://travis-ci.com/githubfoam/debian-sandbox.svg?branch=test)](https://travis-ci.com/githubfoam/debian-sandbox)  
 
 ~~~~
+> del Vagrantfile
 >vagrant init --template Vagrantfile.provision.bash.erb
 >dir
 >vagrant up "vg-debian-04"
